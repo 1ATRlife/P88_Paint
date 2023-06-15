@@ -46,27 +46,6 @@ var mouseEvent = "empty";
         mouseEvent="mouseleave"
     }
 
-
-    /*Create an event listener for "mouseup"
-    and call function my_mouseup
-
-    Create a function named my_mouseup with
-    event e as parameter.
-    
-    Assign "mouseUP" to mouseEvent
-    within the function
-    */
-    
-    /*Create an event listener for "mouseleave"
-    and call function my_mouseleave
-
-    Create a function named my_mouseleave with
-    event e as parameter.
-    
-    Assign "mouseleave" to mouseEvent
-    within the function
-    */
-
 function clearArea() {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
